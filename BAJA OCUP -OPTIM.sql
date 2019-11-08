@@ -1,3 +1,4 @@
+//Turnos con baja ocupacion
 SELECT T.FECHA_PARTIDA,T.HORA,T.O_D,
 DECODE(T.SERVICIO,
 								'E. VIP MB','EJECUTIVO VIP',
