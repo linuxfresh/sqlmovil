@@ -78,8 +78,8 @@ ptmy.AUDUSUMOD,ptmy.audfecmod,--ptmy.EMPRESA,
 								
                  --i.c_estreg='I'   AND      
                --and 
-							 I.N_ESANULADO = 0 AND
-								(I.d_fecpar between to_date('06/11/2019','dd/mm/yyyy') and to_date('06/11/2019','dd/mm/yyyy'))
+							 --I.N_ESANULADO = 0 AND
+								(I.d_fecpar between to_date('06/11/2019','dd/mm/yyyy') and to_date('07/11/2019','dd/mm/yyyy'))
 											--or v.d_fecpar between to_date('01/07/2019','dd/mm/yyyy') and to_date('1/08/2019','dd/mm/yyyy'))
                 --and v.agencia_id <> 69
 								) ptmy        
@@ -100,7 +100,7 @@ ptmy.AUDUSUMOD,ptmy.audfecmod,--ptmy.EMPRESA,
 										 --ptmy.AGENCIA,
 							ptmy.KMS--,
 			--ptmy.ruta				
-			HAVING ptmy.destino = 'CUSCO' AND ptmy.origen = 'LIMA'
+			HAVING ptmy.destino = 'TARAPOTO' AND ptmy.origen = 'CHICLAYO'
 			--ptmy.TURNO = '21:15' --AND 
 			--ptmy.AGENCIA_PARTIDA='JAVIER PRADO-TERM'
 			--ptmy.AGENCIA_PARTIDA='TOMAS VALLE TERRA'
